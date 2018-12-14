@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:  #7a9ea6;
+    color:black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#wdyt{
+    margin-top: 100px;
+}
+
+.form {
+    margin-top: 130px;
+    height: 250px;
+}
+
+.form-row,
+.form-group {
+    width: 33%;
+    float: center;
+    margin-right: 1%;
+    cursor: text;
+    margin-bottom: 50px;
+}
+
+.CV {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 50%; 
+    float: center;
+    margin-left: 415px;
+    margin-right: auto;
+}
+
+#paragraf {
+    margin-top: 105px;
+    margin-left: 25%;
+    margin-right: 50%;
+    text-align: justify;
+    font-style: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#carouselExampleIndicators {
+    margin-top: 100px;
+}
+/* ILLUSTRATIONS & PHPTPGRPHY PAGE */
+.responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#gallery {
+    display: block;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+/* Footer */
+
+#footer {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding: 4em 0 8em 0;
+    box-shadow: inset 0 1px 0 0 #e6e6e6;
+    margin: 0 !important;
+    padding: 10px;
+    background-color: #7a9ea6;
+}
+
+#footer .copyright {
+    margin-top: 3em;
+    font-size: 0.8em;
+    color: black;
+    font-style: bold;
+}
+
+#footer .copyright a {
+    color: inherit;
+}
+
+#footer ul.icons a {
+    box-shadow: inset 0 0 0 1px black;
+}
+
+
+#footer .copyright {
+    margin-top: 2em;
+}
+
+}
